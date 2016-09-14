@@ -1,10 +1,10 @@
-import { CliFirstPage } from './app.po';
+import { AngularCliSecondPage } from './app.po';
 
-describe('cli-first App', function() {
-  let page: CliFirstPage;
+describe('angular-cli-second App', function() {
+  let page: AngularCliSecondPage;
 
   beforeEach(() => {
-    page = new CliFirstPage();
+    page = new AngularCliSecondPage();
   });
 
   it('should display message saying app works', () => {

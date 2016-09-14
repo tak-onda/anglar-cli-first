@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor/globals';
 
-export class CliFirstPage {
+export class AngularCliSecondPage {
   navigateTo() {
     return browser.get('/');
   }
